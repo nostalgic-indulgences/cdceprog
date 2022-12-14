@@ -30,7 +30,7 @@ the extremely ancient Raspberry Pi boards that had I2C bus 0 on the
 GPIO header - if you do, change the line `bus = smbus.SMBus(1)` to
 `bus = smbus.SMBus(0)` in `cdceprog.py`.
 
-*modern day Raspberry Pi 4 has the I2C bus 1 on the header*
+*Modern day (2022) Raspberry Pi 4 has the I2C bus 1 on the header*
 
 You must be running Raspbian on your Pi and install the additional
 package `python-smbus` for the script to work. Since accessing the I2C
