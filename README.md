@@ -38,8 +38,7 @@ bus directly usually requires root privileges, you will likely want to
 run the script with sudo, e.g. `sudo ./cdceprog.py settings.hex`.
 
 *Do remember to enable I2C interface in raspi-config!
-
-*'python-smbus' has been deprecated in Python 3, 
+'python-smbus' has been deprecated in Python 3, 
 install the current python3-smbus instead :-*
 
 *sudo apt-get update
