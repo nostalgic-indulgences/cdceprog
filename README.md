@@ -40,12 +40,12 @@ run the script with sudo, e.g. `sudo ./cdceprog.py settings.hex`.
 >*Do remember to enable I2C interface in raspi-config!<br>*
 >*'python-smbus' has been deprecated in Python 3, install the current python3-smbus instead :-<br>*
 >
->**sudo apt-get update<br>**
->**sudo apt-get install python3-smbus python3-dev i2c-tools<br>**
+>`sudo apt-get update`<br>
+>`sudo apt-get install python3-smbus python3-dev i2c-tools`<br>
 >
 >*Run program in commandline as such:-<br>*
 >
->**python3 cdceprog.py settings.hex<br>**
+>`python3 cdceprog.py settings.hex`<br>
 
 To connect the DFO to the Raspberry Pi, check the nice overview of the
 GPIO connector [here](http://pi.gadgetoid.com/pinout). The programming
